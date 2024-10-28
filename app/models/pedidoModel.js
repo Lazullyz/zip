@@ -49,14 +49,14 @@ const pedidoModel = {
             var values = delete_items;
     
 
-            var deleteSql = "DELETE FROM Sacola WHERE Id_prod_cliente IN (?)";
-            var deleteSql = "DELETE FROM Favoritos WHERE Id_prod_cliente IN (?)";
-
-            
-            const [updateResult] = await pool.query(updateSql, [values]);
-            const [deleteResult] = await pool.query(deleteSql, [values]);
+            var deleteSqlSacola = "DELETE FROM Sacola WHERE Id_prod_cliente IN (?)";
+            var deleteSqlFavoritos = "DELETE FROM Favoritos WHERE Id_prod_cliente IN (?)";
     
-            return { updateResult, deleteResult };
+            const [updateResult] = await pool.query(updateSql, [values]);
+            const [deleteResultSacola] = await pool.query(deleteSqlSacola, [values]);
+            const [deleteResultFavoritos] = await pool.query(deleteSqlFavoritos, [values]);
+    
+            return { updateResult, deleteResultSacola, deleteResultFavoritos };
         } catch (error) {
             return error;
         } 
