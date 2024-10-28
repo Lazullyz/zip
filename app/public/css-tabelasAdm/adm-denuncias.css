@@ -53,6 +53,10 @@ body {
     background-color: #f70064;
 }
 
+#banir{
+    background-color: black;
+}
+
 
 #borão:hover {
     opacity: 0.8;

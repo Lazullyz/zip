@@ -140,6 +140,13 @@ const controller = {
   regrasValidacaoperfil: [
     body('nome').isLength({ min: 3, max: 45 }).withMessage("*Nome deve ter de 3 a 45 caracteres!"),
     body('email').isEmail().withMessage('*Email Inválido'),
+    // body('email').isEmail().withMessage('*Email Inválido')
+    // .custom(async value => {
+    //   const [email] = await pool.query('SELECT * FROM cliente WHERE email = ?', [value]);
+    //   if (email.length > 0) {
+    //     throw new Error('*Email em uso!');
+    //   }
+    // }),
     body('senha').custom((senha, {req}) => {
       const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[\W_])/;
       if (!senha){

@@ -47,13 +47,6 @@ dia 27
 
 
 
-
-# Erros
-
-Erro no render
-
-
-
 ## Paginas que so temos acesso logado
 Meus dados
 Adc-produt
@@ -85,61 +78,47 @@ Redefinir Senha
 
 
 
-
-
-
 ## Paginas Como Estão
 Cadastro = Finalizado
 Redefinir Senha = Finalizado
 Cart = Finalizado
 Produtos = Finalizado
-Bazar = Finalizado 
 Meus dados = Finalizado 
 denuncias-usu = Finalizado 
 minhas vendas = Finalizado 
 meus pedidos = Finalizado 
 Adc-bazar & Criar Bazar = Finalizado
 Tabelas/famoso/denuncia/dashbord = Finalizado
+Masculino = Finalizado
+Infantil = Finalizado
+Acessorios = Finalizado
+Feminino = Finalizado
+Pesquisa = Finalizado
+perfil = Finalizado
+
+Vender = Finalizado (Porem diminuir texto mobile para caber na tela do mobile)
+Adc-produto = Finalizado - Tomar Cuidado Bug de aumentar e diminuir
 
 
-
-
-
-Produtos Adicionados, Vender{
-    Pagina em desenvolvimento.. (Porem apos ja estão finalizados)
-}
-Index{
-    Mobile com alguns bugs
-    E SETAS QUE NÃO FUNCIONAM N DEVEM APARECER
-    Imagem desk da Larezzo torta pra cima
-}
-Masculino, Infantil, Acessorios, Femino{
-    Desk espaço embaixo do rodape
-    Desk distancia dos produtos
-}
-Pesquisa (ps: é o msm css do M F I A){
-    Produtos ao pesquisar aparecem bugados
-}
-Infantil{
-    Bugado os produtos mobile
+Produtos Adicionados{
+    espaçamento rodape mobile
+    e menu mobile msm bug do bazar
 }
 Wishlist{
-    Mobile Menu todo bugado
+    Wishlist bugada mobile
 }
-perfil{
-    Você pode gostar bugado(mostra as 4 imagens)
-}
-Adc-produto{
-    Menu Mobile totalmente quebrado
-    Rodape Mobile com um espaço abaixo
-    Bug de aumentar e diminuir
+Bazar { 
+    Menu Mobile Buga 
 }
 Login {
     Ver oque sera do voce pode gostar
     Tirar o Lembre-me
     No mobile ao scrolar esta dando uma travada (como se tivesse 2 barras)
 }
-
+Index{
+    Mobile com alguns bugs
+    E SETAS QUE NÃO FUNCIONAM N DEVEM APARECER
+}
 
 
 
