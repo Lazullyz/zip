@@ -44,7 +44,8 @@ left: 1.8vw;
 
 #paragrafo_promos_responsivo {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    color: black;
     font-size: 2.7vw;
     margin-bottom: 0.2vh;
 }
@@ -53,6 +54,7 @@ left: 1.8vw;
     font-family: 'Poppins', sans-serif;
     font-size: 2.8vw;
     opacity: 90%;
+    color: black;
 }
 
 /*setas*/

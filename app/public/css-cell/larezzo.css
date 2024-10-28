@@ -133,7 +133,8 @@
 .produto_paragrafo_larezzo1_cell {
     font-family: 'Poppins', sans-serif;
     font-size: 3.5vw;
-    font-weight: 600;
+    font-weight: 500;
+    color: #000000;
     position: relative;
     left: 8.65vw;
     top: -1vh;
@@ -144,6 +145,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     opacity: 60%;
+    color: #000000;
     position: relative;
     left: 19.7vw;
     top: -2.5vh;
@@ -152,7 +154,8 @@
 .produto_paragrafo_larezzo2_cell {
     font-family: 'Poppins', sans-serif;
     font-size: 3.5vw;
-    font-weight: 600;
+    font-weight: 500;
+    color: #000000;
     position: relative;
     left: 1.2vw;
     top: -1vh;

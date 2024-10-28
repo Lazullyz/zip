@@ -154,6 +154,7 @@
 
 .parte_escrita_versace_bazar_img_responivo {
     width: 40vw;
+    margin-bottom: 50vh;
 }
 
 /* parte do botão computador */
@@ -185,21 +186,11 @@
     height: 2.7vh;
 }
 
-.parte_dos_botoes_responsivo:hover {
-    background-color: black;
-    color: white;
-}
-
-.parte_dos_botoes_responsivo:active {
-    background-color: black;
-    color: white;
-}
-
 #section_parte_dos_botoes_responsivo > article {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    
+    margin-top: 1vh;
 }
 
 #section_parte_dos_botoes_responsivo > article > p {
