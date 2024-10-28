@@ -90,23 +90,13 @@ Acessorios = Finalizado
 Feminino = Finalizado
 Pesquisa = Finalizado
 perfil = Finalizado
-
+Bazar = Finalizado
 Vender = Finalizado
+Produtos Adicionados = Finalizado .
+Login = Finalizado
+
 Adc-produto = Finalizado - Tomar Cuidado Bug de aumentar e diminuir
 
-
-Produtos Adicionados{
-    perfil no mob, está com aquela parte de cadastre-se - Arthur
-}
-
-Bazar { 
-    Menu Mobile Buga - arthur
-}
-
-Login {
-    Ver oque sera do voce pode gostar - tira arthur
-    Tirar o Lembre-me - tira arthur
-}
 
 
 
