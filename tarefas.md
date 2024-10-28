@@ -95,6 +95,7 @@ Acessorios = Finalizado
 Feminino = Finalizado
 Pesquisa = Finalizado
 perfil = Finalizado
+
 Vender = Finalizado (Porem diminuir texto mobile para caber na tela do mobile)
 Adc-produto = Finalizado - Tomar Cuidado Bug de aumentar e diminuir
 
@@ -103,11 +104,9 @@ Produtos Adicionados{
     espaçamento rodape mobile
     e menu mobile msm bug do bazar
 }
-
 Wishlist{
     Wishlist bugada mobile
 }
-
 Bazar { 
     Menu Mobile Buga 
 }

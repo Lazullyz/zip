@@ -139,7 +139,8 @@ const prodModels = {
                 produtos
             WHERE 
                 Stats = 'Disponível' 
-                AND cateProduto = 'masculino';`;
+                AND cateProduto = 'masculino'
+                AND Id_Bazar IS NULL;`;
         
         const [result] = await pool.query(query);
         return result[0].total_produtos_masculinos || 0;
@@ -153,7 +154,8 @@ const prodModels = {
                 produtos
             WHERE 
                 Stats = 'Disponível' 
-                AND cateProduto = 'feminino';`;
+                AND cateProduto = 'feminino'
+                AND Id_Bazar IS NULL;`;
         
         const [result] = await pool.query(query);
         return result[0].total_produtos_masculinos || 0;
@@ -167,7 +169,8 @@ const prodModels = {
                 produtos
             WHERE 
                 Stats = 'Disponível' 
-                AND cateProduto = 'infantil';`;
+                AND cateProduto = 'infantil'
+                AND Id_Bazar IS NULL;`;
         
         const [result] = await pool.query(query);
         return result[0].total_produtos_masculinos || 0;
@@ -181,7 +184,8 @@ const prodModels = {
                 produtos
             WHERE 
                 Stats = 'Disponível' 
-                AND cateProduto = 'acessorios';`;
+                AND cateProduto = 'acessorios'
+                AND Id_Bazar IS NULL;`;
         
         const [result] = await pool.query(query);
         return result[0].total_produtos_masculinos || 0;
