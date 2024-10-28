@@ -253,6 +253,14 @@ router.get("/cart",
             "DELETE FROM `produtos` WHERE id_Cliente = ? AND Id_prod_cliente = ?",
             [userId, productId]
           );
+          await connection.query(
+            "DELETE FROM `Favoritos` WHERE Id_prod_cliente = ?",
+            [productId]
+          );
+          await connection.query(
+            "DELETE FROM `Sacola` WHERE Id_prod_cliente = ?",
+            [productId]
+            );
           console.log('produto do add removido');
     
           res.redirect('/produtos-adicionados'); 
