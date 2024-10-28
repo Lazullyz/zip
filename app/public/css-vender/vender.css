@@ -194,10 +194,11 @@ body {
     }
 
     .incetivo-cadastrar {
-        margin-top: 10vh;
+        margin-top: -5vh;
         width: 80vw;
         position: absolute;
         left: 59vw;
+        font-size: 16px;
     }
 
     .modelo-oculos-branco {

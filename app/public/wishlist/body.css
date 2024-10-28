@@ -10,4 +10,5 @@ html {
 body {
     overflow-x: hidden;
     font: 300 1.8rem 'Poppins';
+    height: 200vh;
 }

@@ -1,11 +1,6 @@
 ## O que falta do projeto (Lazully)
 ## O que falta do projeto (Sophia)
 
-- Vender
-- Produtos nas paginas m,f,i,a - ama
-- Ajustar alinhamento dos produtos no m,f,i,a - ama
-- Indez canvas
-- Produtos adicionados css e vender no menu
 - login carrossel
 
 ## O que falta do projeto (João)
@@ -96,29 +91,23 @@ Feminino = Finalizado
 Pesquisa = Finalizado
 perfil = Finalizado
 
-Vender = Finalizado (Porem diminuir texto mobile para caber na tela do mobile)
+Vender = Finalizado
 Adc-produto = Finalizado - Tomar Cuidado Bug de aumentar e diminuir
 
 
 Produtos Adicionados{
-    espaçamento rodape mobile
-    e menu mobile msm bug do bazar
+    perfil no mob, está com aquela parte de cadastre-se - Arthur
 }
-Wishlist{
-    Wishlist bugada mobile
-}
+
 Bazar { 
-    Menu Mobile Buga 
+    Menu Mobile Buga - arthur
 }
+
 Login {
-    Ver oque sera do voce pode gostar
-    Tirar o Lembre-me
-    No mobile ao scrolar esta dando uma travada (como se tivesse 2 barras)
+    Ver oque sera do voce pode gostar - tira arthur
+    Tirar o Lembre-me - tira arthur
 }
-Index{
-    Mobile com alguns bugs
-    E SETAS QUE NÃO FUNCIONAM N DEVEM APARECER
-}
+
 
 
 
