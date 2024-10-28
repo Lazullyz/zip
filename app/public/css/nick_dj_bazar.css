@@ -35,7 +35,7 @@ video {
 }
 
 .parte_escrita_versace_bazar_img{
-    width: 110%;
+    width: 16.46vw;
 
     
 
@@ -46,12 +46,12 @@ video {
 
 #parte_dos_botoes{
     display: flex;
-    column-gap: 4px;
+    column-gap: 0.208333vw;
     position: absolute;
     top: 86.5%;
     left: 72%;
-    width: 420px;
-    height: 41px;
+    width: 21.88vw;
+    height: 2.14vw;
 }
 
 /* botoes */
@@ -75,7 +75,7 @@ video {
 
 .botao_1 p{
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 0.95rem;
     font-weight: bolder;
 }
 

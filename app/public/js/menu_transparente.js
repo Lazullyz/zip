@@ -43,6 +43,7 @@ window.addEventListener("scroll", function(){
     header.classList.toggle('rolagem',window.scrollY > 300)
 })
 
+
 /*icones */
 
 /*icone pesquisa */
@@ -74,3 +75,5 @@ window.addEventListener("scroll", function(){
     let header = document.querySelector('.botao_menu_cell')
     header.classList.toggle('rolagem',window.scrollY > 300)
 })
+
+
