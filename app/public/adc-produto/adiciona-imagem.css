@@ -509,6 +509,7 @@ html, body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    object-fit: cover;
     transition: border-color 0.3s ease;
   }
   
