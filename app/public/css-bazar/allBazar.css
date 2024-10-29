@@ -244,8 +244,8 @@ body {
     overflow: hidden;
     position: relative;
     padding: 1rem 0;
-    width: 95vw;
-    margin-left: -2.7vw;
+    width: 92vw;
+    margin: -5vh 0 0 -2.7vw;
 
     & .arrows .arrow-btn {
         display: flex;
@@ -295,7 +295,7 @@ body {
 }
 
 .arrow-btn.next {
-    right: 2.4vw;
+    right: 0.6vw;
     margin-top: -2.5vw;
 }
 
