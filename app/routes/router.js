@@ -756,14 +756,14 @@ router.get("/wishlist/",
           "DELETE FROM `Favoritos` WHERE id_Cliente = ? AND Id_prod_cliente = ?",
           [userId, id]
         );
-        res.redirect('/acessorios')
+        res.redirect('/wishlist')
       } else {
         const results = await connection.query(
           'INSERT INTO `Favoritos` (id_prod_cliente, data, id_Cliente, tituloProd, preçoProd, img1) VALUES (?, ?, ?, ?, ?, ?)',
           [id, dataFav, req.session.autenticado.id, titulo, preco, img1]
         );
         console.log('Favoritado');
-        res.redirect('/acessorios');
+        res.redirect('/wishlist');
       }
 
 
