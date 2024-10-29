@@ -379,6 +379,7 @@ router.get("/pagamento",
   );
   
 
+  
 router.get("/feminino",
   verificarUsuAutenticado,
   async function (req, res) {
@@ -405,12 +406,7 @@ router.get("/infantil",
   const totalDisponiveisMasculino = await produtosModels.countAvailableChildProducts();
 
   const userId = req.session.autenticado.id;
-      const prodFavJaExiste = await Promise.all(
-        produtos.map(async (produto) => {
-          const isFav = await prodModels.hasProductsFav(userId, produto.id_prod_cliente);
-          return { ...produto, isFav };
-        })
-      );
+
 
   res.render('pages/infantil', {  contagem: totalDisponiveisMasculino, produtos: prodFavJaExiste, user: userId, msg: 'Back-end funcionando' });
 });
@@ -615,14 +611,14 @@ router.get("/wishlist/",
           "DELETE FROM `Favoritos` WHERE id_Cliente = ? AND Id_prod_cliente = ?",
           [userId, id]
         );
-        res.redirect('/masculino')
+        res.redirect('/wishlist')
       } else {
         const results = await connection.query(
           'INSERT INTO `Favoritos` (id_prod_cliente, data, id_Cliente, tituloProd, preçoProd, img1) VALUES (?, ?, ?, ?, ?, ?)',
           [id, dataFav, req.session.autenticado.id, titulo, preco, img1]
         );
         console.log('Favoritado');
-        res.redirect('/masculino');
+        res.redirect('/wishlist');
       }
 
 
@@ -664,14 +660,14 @@ router.get("/wishlist/",
           "DELETE FROM `Favoritos` WHERE id_Cliente = ? AND Id_prod_cliente = ?",
           [userId, id]
         );
-        res.redirect('/feminino')
+        res.redirect('/wishlist')
       } else {
         const results = await connection.query(
           'INSERT INTO `Favoritos` (id_prod_cliente, data, id_Cliente, tituloProd, preçoProd, img1) VALUES (?, ?, ?, ?, ?, ?)',
           [id, dataFav, req.session.autenticado.id, titulo, preco, img1]
         );
         console.log('Favoritado');
-        res.redirect('/feminino');
+        res.redirect('/wishlist');
       }
 
 
@@ -712,14 +708,14 @@ router.get("/wishlist/",
           "DELETE FROM `Favoritos` WHERE id_Cliente = ? AND Id_prod_cliente = ?",
           [userId, id]
         );
-        res.redirect('/infantil')
+        res.redirect('/wishlist')
       } else {
         const results = await connection.query(
           'INSERT INTO `Favoritos` (id_prod_cliente, data, id_Cliente, tituloProd, preçoProd, img1) VALUES (?, ?, ?, ?, ?, ?)',
           [id, dataFav, req.session.autenticado.id, titulo, preco, img1]
         );
         console.log('Favoritado');
-        res.redirect('/infantil');
+        res.redirect('/wishlist');
       }
 
 
