@@ -406,6 +406,12 @@ router.get("/infantil",
   const totalDisponiveisMasculino = await produtosModels.countAvailableChildProducts();
 
   const userId = req.session.autenticado.id;
+  const prodFavJaExiste = await Promise.all(
+    produtos.map(async (produto) => {
+      const isFav = await prodModels.hasProductsFav(userId, produto.id_prod_cliente);
+      return { ...produto, isFav };
+    })
+  );
 
 
   res.render('pages/infantil', {  contagem: totalDisponiveisMasculino, produtos: prodFavJaExiste, user: userId, msg: 'Back-end funcionando' });
