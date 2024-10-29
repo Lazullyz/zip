@@ -13,7 +13,7 @@
 /* area do new in for her*/
 .new_in_for_him {
     position: absolute;
-    top: 495vh;
+    top: 485vh;
     left: 5.76%;
     display: flex;
     flex-direction: row-reverse;
@@ -88,7 +88,7 @@
     transition: 1s;
     position: relative;
     left: -200px;
-    top: 90.5px;
+    top: 130.5px;
 }
 
 .manual-btn2:not(:last-child) {
@@ -197,38 +197,35 @@
 /*parte escrita do larezzo*/
 
 .paragrafo_figcaption_larezzo {
-    position: relative;
-    top: 10px;
+   
 }
 
 .produto_paragrafo_larezzo1 {
+    margin-left: -2vw;
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: 500;
-    position: relative;
-    left: 14%;
+
     top: 5px;
     padding-bottom: 10px;
     color: #000000;
 }
 
 .produto_paragrafo_larezzo2 {
+    margin-left: -2vw;
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: 500;
-    position: relative;
-    left: 10.5%;
     top: 5px;
     padding-bottom: 10px;
    color: #000000;
 }
 
 .parte_do_preço_larezzo {
+    margin-left: -2vw;
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
     opacity: 60%;
-    position: relative;
-    left: 35%;
     color: #000000;
 }
 
@@ -298,4 +295,9 @@
 .seta {
     width: 60px;
     height: 60px;
+}
+
+.paragrafo_figcaption_larezzo {
+    text-align: center;
+    
 }

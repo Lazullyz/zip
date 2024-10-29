@@ -203,7 +203,7 @@
     transition: 1s;
     position: relative;
     left: -23%;
-    top: 5.21vw;
+    top: 6.21vw;
 }
 
 .manual-btn:not(:last-child) {
@@ -281,7 +281,7 @@
     font-size: 1.46vw;
     font-weight: 500;
     position: relative;
-    left: 14.5%;
+    left: 16%;
     top: 5px;
     padding-bottom: 10px;
     color: #000000;
@@ -316,4 +316,8 @@
 .paragrafo_preco{
     font-family: 'Poppins', sans-serif;
 
+}
+
+.paragrafo_figcaption_cell {
+    text-align: center;
 }
