@@ -116,8 +116,8 @@ const pedidoModel = {
             JOIN 
                 cliente ON pedidos.id_Cliente = cliente.id_Cliente
             WHERE 
-                produtos.id_Cliente = ?
-                AND pedido_item.localiza != 'Enviado';
+                produtos.id_Cliente = ? 
+                AND pedido_item.localiza IS NULL;
         `;
     
         try {
@@ -127,6 +127,7 @@ const pedidoModel = {
             callback(err, null);
         }
     },
+    
 
     contarVendasNaoEnviadas: async (id_Cliente) => {
         const query = `
@@ -140,7 +141,7 @@ const pedidoModel = {
                 produtos ON pedido_item.Id_prod_cliente = produtos.Id_prod_cliente
             WHERE 
                 produtos.id_Cliente = ? 
-                AND pedido_item.localiza != 'Enviado';
+                AND pedido_item.localiza IS NULL;
         `;
         const [result] = await pool.query(query, [id_Cliente]);
         return result[0].total_vendas_nao_enviadas || 0;

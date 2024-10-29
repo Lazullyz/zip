@@ -62,11 +62,11 @@
 
   #fam{
     margin-top: 20px;
-    height: 55px;
+    height: 75px;
     cursor: pointer;
-    background-color: #efb810;
+    background-color: black;
     color: rgb(255, 255, 255);
-    border-color: #efb810;
+    border-color: black;
 
     font-size: 21px;
     font-weight: 400;
@@ -75,11 +75,11 @@
 
   #den{
     margin-top: 20px;
-    height: 55px;
+    height: 75px;
     cursor: pointer;
-    background-color: #ff6961;
+    background-color: black;
     color: rgb(255, 255, 255);
-    border-color: #ff6961;
+    border-color: black;
 
     font-size: 21px;
     font-weight: 300;
@@ -87,11 +87,11 @@
   }
 
   #fam:hover {
-    background-color: #e4ad09;
+    background-color: #252525;
   }
 
   #den:hover {
-    background-color: #ee544c;
+    background-color: #252525;
   }
   
   @media (max-width: 480px) {
