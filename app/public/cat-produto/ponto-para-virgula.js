@@ -11,6 +11,12 @@ window.onload = function() {
         precos0.innerHTML = precos0.innerHTML.replace(/\./g, ',');
     }
 
+    // Para o elemento com o ID 'parte_preço_bolsa_Preta'
+    var precos090 = document.getElementById('h4');
+    if (precos090) { // Verifica se o elemento existe
+        precos090.innerHTML = precos090.innerHTML.replace(/\./g, ',');
+    }
+
     // Para o elemento com o ID 'parte_escrita_subtotal'
     var preco1 = document.getElementById('parte_escrita_subtotal');
     if (preco1) { // Verifica se o elemento existe
@@ -30,6 +36,11 @@ window.onload = function() {
 
     var precos = document.querySelectorAll('.parte_do_total');
     precos.forEach(function(p) {
+        p.innerHTML = p.innerHTML.replace(/\./g, ',');
+    });
+
+    var precosss = document.querySelectorAll('#h4');
+    precosss.forEach(function(p) {
         p.innerHTML = p.innerHTML.replace(/\./g, ',');
     });
 };
