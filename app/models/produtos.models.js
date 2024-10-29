@@ -58,7 +58,7 @@ const prodModels = {
             return linhas;
         } catch (error) {
             console.log(error);
-            return error
+            return errordadosForm
         }
     },
     
