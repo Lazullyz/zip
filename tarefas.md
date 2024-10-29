@@ -100,7 +100,7 @@ Adc-produto = Finalizado - Tomar Cuidado Bug de aumentar e diminuir
 
 
 
-
-
-
+## arrumes extras
+- bazar
+- index
 

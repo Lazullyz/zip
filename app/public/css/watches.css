@@ -76,7 +76,7 @@
     column-gap: 23.28vw;
     position: relative;
     top: 16.93vw;
-    left: 58%;
+    left: 60%;
 }
 
 #setas-watches-cell {
@@ -164,7 +164,7 @@
     overflow: hidden;
     position: relative;
     top: 8vw;
-    left: -32%;
+    left: -24%;
 }
 
 .slides {
@@ -178,7 +178,7 @@
 }
 
 .slide {
-    width: 25vw;
+    width: 22.86vw;
     position: relative;
     transition: 1s;
 }
@@ -203,7 +203,7 @@
     transition: 1s;
     position: relative;
     left: -23%;
-    top: 6.21vw;
+    top: 6vw;
 }
 
 .manual-btn:not(:last-child) {
@@ -254,16 +254,16 @@
 
 
 .imagem_do_watches_slide {
-    width: 439px;
-    height: 549px;
+    width: 22.86vw;
+    height: 28.59vw;
     background-color: black;
 }
  
 
 
 .imagem_do_watches_slide2 {
-    width: 439px;
-    height: 549px;
+    width: 22.86vw;
+    height: 28.59vw;
     background-color: black;
 }
 
@@ -274,6 +274,9 @@
 .paragrafo_figcaption{
     position: relative;
     top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .produto_paragrafo_watches1 {
@@ -281,7 +284,6 @@
     font-size: 1.46vw;
     font-weight: 500;
     position: relative;
-    left: 16%;
     top: 5px;
     padding-bottom: 10px;
     color: #000000;
@@ -292,7 +294,6 @@
     font-size: 0.989583vw;
     opacity: 60%;
     position: relative;
-    left: 39%;
     color: #000000;
 }
 
@@ -301,7 +302,6 @@
     font-size: 1.46vw;
     font-weight: 500;
     position: relative;
-    left: 10.5%;
     top: 5px;
     padding-bottom: 10px;
     color: #000000;

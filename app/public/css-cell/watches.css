@@ -7,6 +7,7 @@
 #section_watche_responsivo_cell {
     display: block;
     position: relative;
+    margin-bottom: 35.5vh;
     
 }
 
@@ -164,7 +165,11 @@
 .paragrafo_figcaption_cell{
     position: relative;
     top: 10vh;
-    width: 100vw;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .produto_paragrafo_watches1_cell {
@@ -173,7 +178,6 @@
     font-weight: 500;
     color: #000000;
     position: relative;
-    left: 9.65vw;
     top: -1vh;
     padding-bottom: 2vh;
 }
@@ -184,7 +188,6 @@
     opacity: 60%;
     color: #000000;
     position: relative;
-    left: 19.7vw;
     top: -2.5vh;
 }
 
@@ -215,7 +218,7 @@
 #setas-watches-cell {
     display: flex;
     position: relative;
-    top: -62vh;
+    top: -65vh;
     column-gap: 49.6vw;
     left: 11.2vw;
 }
@@ -307,7 +310,7 @@
 .slider2 {
     margin: 0 auto;
     width: 55vw;
-    
+    height: 53vh;
     overflow: hidden;
     position: relative;
     top: 27vh;
@@ -481,4 +484,13 @@
 .slide_watches_cell{
     width: 55vw;
     height: 700px;
+}
+
+.manual-navigation {
+    position: absolute;
+    left: 34.5vw;
+    width: 41.67vw;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
 }
