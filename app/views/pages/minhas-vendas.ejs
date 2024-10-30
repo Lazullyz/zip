@@ -382,7 +382,7 @@
                         <% if (venda.status_envio !== 'Enviado') { %> 
                             <tr id="vendas__linhas">
                                 <td><%= venda.produto_vendido %></td>
-                                <td><%= venda.produto_vendido %></td>
+                                <td><%= venda.comprador_nome %></td>
                                 <td><%= venda.comprador_cep %>, <%= venda.comprador_casa %></td>
                                 <td>
                                     <form action="/atualizar-mensagem" method="post">
